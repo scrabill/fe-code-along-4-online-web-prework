@@ -16,6 +16,12 @@ selector {
 
 /* Type selector */
 
+/*////////// MEDIA //////////*/
+
+img, video, audio {
+  max-width: 100%;
+}
+
 p { /* select all <p> */
   font-size: 1em; /* 16px, ?pt, 100%, 1em */
   line-height: 1.5em;
