@@ -29,6 +29,14 @@ section {
   margin-bottom: 20px;
 }
 
+/*////////// LAYOUT //////////*/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 p { /* select all <p> */
   font-size: 1em; /* 16px, ?pt, 100%, 1em */
   line-height: 1.5em;
